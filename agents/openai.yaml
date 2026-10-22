@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Paper Deep Dive"
+  short_description: "AI 论文精读与科研审查，自动生成 MD + HTML 双格式笔记"
+  default_prompt: "请使用 AI Paper Deep Dive 精读我提供的 AI 论文，核对原文，重点讲方法、关键公式、训练推理流程与实验结论，并直接自动生成可下载的 Markdown 和 HTML 笔记。"
