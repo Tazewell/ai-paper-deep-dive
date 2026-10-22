@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-label="AI Paper Deep Dive: From reading papers to doing research">
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#070D20"/><stop offset="55%" stop-color="#101B39"/><stop offset="100%" stop-color="#0B0F24"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0%" stop-color="#6265FF" stop-opacity=".50"/><stop offset="50%" stop-color="#268CE6" stop-opacity=".16"/><stop offset="100%" stop-color="#0C1834" stop-opacity="0"/></radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2=".3"><stop offset="0%" stop-color="#98ACFF"/><stop offset="55%" stop-color="#6AD5FF"/><stop offset="100%" stop-color="#5FF4CC"/></linearGradient>
+  <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#23395D" stop-opacity=".96"/><stop offset="100%" stop-color="#0B1735" stop-opacity=".98"/></linearGradient>
+  <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E7F3FF" stop-opacity=".93"/><stop offset="100%" stop-color="#95B7E7" stop-opacity=".79"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#020816" flood-opacity=".62"/></filter>
+  <pattern id="dots" width="35" height="35" patternUnits="userSpaceOnUse"><circle cx="1.3" cy="1.3" r="1.1" fill="#C0D3FF" opacity=".12"/></pattern>
+</defs>
+<rect width="1600" height="620" rx="32" fill="url(#back)"/>
+<rect width="1600" height="620" rx="32" fill="url(#dots)"/>
+<circle cx="1280" cy="285" r="425" fill="url(#halo)"/>
+<circle cx="1170" cy="345" r="255" stroke="#5A7EC6" stroke-opacity=".18" stroke-width="1.5" fill="none"/>
+<circle cx="1170" cy="345" r="320" stroke="#5A7EC6" stroke-opacity=".12" stroke-width="1.5" fill="none"/>
+<path d="M960 100H1548 M1060 536H1530" stroke="#84BAFF" opacity=".11"/>
+<circle cx="1476" cy="107" r="4" fill="#80EDDE"/>
+<circle cx="1010" cy="501" r="3" fill="#A6B8FF"/>
+<circle cx="1505" cy="473" r="3" fill="#A6B8FF"/>
+<!-- brand pill -->
+<rect x="86" y="78" width="270" height="45" rx="22.5" fill="#7F8AFF" fill-opacity=".12" stroke="#8B9EFF" stroke-opacity=".42"/>
+<circle cx="112" cy="100.5" r="5.5" fill="#5DEDD8"/>
+<text x="129" y="107" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#C9D9FF" letter-spacing="2.0">RESEARCH WORKFLOW</text>
+<text x="84" y="245" fill="#F8FAFF" font-size="93" font-weight="800" letter-spacing="-3.8" font-family="Arial,Helvetica,sans-serif">AI PAPER</text>
+<text x="84" y="341" fill="url(#accent)" font-size="93" font-weight="800" letter-spacing="-4.2" font-family="Arial,Helvetica,sans-serif">DEEP DIVE</text>
+<rect x="87" y="372" width="68" height="4" rx="2" fill="#56E9CE"/>
+<text x="86" y="418" fill="#CFDAF5" font-size="28" font-weight="400" font-family="Arial,Helvetica,sans-serif">From reading papers to doing research.</text>
+<text x="86" y="457" fill="#8296BC" font-size="21" font-family="Arial,Helvetica,sans-serif">Understand  ·  Derive  ·  Verify  ·  Reproduce</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700">
+<rect x="85" y="501" width="160" height="45" rx="22" stroke="#748BEC" stroke-opacity=".6" fill="#7988FF" fill-opacity=".1"/><text x="111" y="530" fill="#C7D3FF">LLM / VLM</text>
+<rect x="258" y="501" width="146" height="45" rx="22" stroke="#45D5C7" stroke-opacity=".45" fill="#4ED8B7" fill-opacity=".08"/><text x="286" y="530" fill="#A7F8E8">Diffusion</text>
+<rect x="417" y="501" width="174" height="45" rx="22" stroke="#748BEC" stroke-opacity=".5" fill="#7988FF" fill-opacity=".08"/><text x="445" y="530" fill="#C7D3FF">Agent / RL</text>
+</g>
+<!-- right composition -->
+<g filter="url(#cardShadow)">
+<g transform="translate(1112 119) rotate(-13 166 177)">
+ <rect width="332" height="355" rx="22" fill="#7380FF" fill-opacity=".16" stroke="#9BA6FF" stroke-opacity=".38" stroke-width="2"/>
+ <path d="M30 78H270M30 105H235M30 132H266" stroke="#8F98E5" opacity=".3" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g transform="translate(1063 135) rotate(-4 166 177)">
+ <rect width="332" height="355" rx="22" fill="url(#surface)" stroke="#618DDF" stroke-opacity=".7" stroke-width="2"/>
+ <rect x="29" y="28" width="144" height="30" rx="15" fill="#4C8DFA" fill-opacity=".22"/>
+ <text x="48" y="49" font-size="14" font-family="Arial,Helvetica,sans-serif" font-weight="700" letter-spacing="1.3" fill="#86B7FC">PAPER INPUT</text>
+ <rect x="30" y="82" width="215" height="13" rx="6" fill="#A8C9F1" opacity=".58"/>
+ <rect x="30" y="106" width="253" height="9" rx="4.5" fill="#8D9BBE" opacity=".3"/>
+ <rect x="30" y="126" width="225" height="9" rx="4.5" fill="#8D9BBE" opacity=".3"/>
+ <rect x="30" y="158" width="272" height="148" rx="15" fill="#0B1D3C" stroke="#4D7BCE" stroke-opacity=".58"/>
+ <path d="M58 260 C99 214 118 258 159 215 S234 201 269 182" fill="none" stroke="#6BDBDE" stroke-width="4" stroke-linecap="round"/>
+ <circle cx="59" cy="259" r="7" fill="#70F4DA"/><circle cx="157" cy="216" r="7" fill="#9BAAFF"/><circle cx="269" cy="182" r="7" fill="#70F4DA"/>
+ <path d="M58 284H268" stroke="#B3D1FC" stroke-opacity=".2"/>
+ <text x="30" y="338" font-size="14" letter-spacing="1.2" fill="#B1D7FC" font-family="Arial,Helvetica,sans-serif">METHOD  /  EVIDENCE  /  CODE</text>
+</g>
+<g transform="translate(1305 312) rotate(8 90 80)">
+ <rect width="211" height="167" rx="20" fill="#132E49" stroke="#7BF3D7" stroke-opacity=".72" stroke-width="2"/>
+ <circle cx="43" cy="44" r="16" fill="#4EDAC4" fill-opacity=".18" stroke="#76F4DD" />
+ <path d="M38 43L42 48L49 39" stroke="#8BF9DD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ <text x="68" y="50" fill="#D7FFF6" font-size="16" font-family="Arial,Helvetica,sans-serif" font-weight="700">VERIFIED</text>
+ <path d="M28 91H177M28 112H154M28 133H166" stroke="#8EBBCB" stroke-opacity=".48" stroke-width="8" stroke-linecap="round"/>
+</g>
+</g>
+<path d="M1020 335 C993 350 988 394 1002 425" fill="none" stroke="#70EBDA" stroke-width="2.5" stroke-dasharray="7 11" opacity=".9"/>
+<circle cx="1007" cy="430" r="7" fill="#70EBDA"/>
+<rect x="1" y="1" width="1598" height="618" rx="31" stroke="#8496D0" stroke-opacity=".26" stroke-width="2" fill="none"/>
+</svg>

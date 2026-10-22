@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="Paper input to deep reading to evidence audit to research ideas to Markdown and HTML export">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D152B"/><stop offset="1" stop-color="#111D37"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6888FF"/><stop offset=".5" stop-color="#5DBDDD"/><stop offset="1" stop-color="#5FE4B8"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#000511" flood-opacity=".25"/></filter>
+</defs>
+<rect width="1600" height="360" rx="28" fill="url(#bg)"/>
+<text x="69" y="63" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="4" font-weight="700" fill="#8FA6D6">THE RESEARCH PIPELINE</text>
+<text x="69" y="95" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#8B9EBE">Source-grounded, step by step, with durable exports.</text>
+<line x1="70" x2="1530" y1="110" y2="110" stroke="#5C7DAF" opacity=".3"/>
+<!-- five boxes -->
+<g filter="url(#sh)" font-family="Arial,Helvetica,sans-serif">
+  <g transform="translate(70 145)">
+   <rect width="250" height="168" rx="18" fill="#15233F" stroke="#647CC1" stroke-opacity=".67"/>
+   <circle cx="34" cy="33" r="17" fill="#586EFF" fill-opacity=".2"/><text x="26" y="39" font-size="17" font-weight="700" fill="#ABB8FF">01</text>
+   <text x="25" y="88" font-size="26" font-weight="700" fill="#F3F7FF">SOURCE</text>
+   <text x="25" y="119" font-size="16" fill="#A4B6D6">PDF · arXiv</text><text x="25" y="144" font-size="16" fill="#A4B6D6">Version · Code</text>
+  </g>
+  <g transform="translate(372 145)">
+   <rect width="250" height="168" rx="18" fill="#15233F" stroke="#6D8BE8" stroke-opacity=".67"/>
+   <circle cx="34" cy="33" r="17" fill="#586EFF" fill-opacity=".2"/><text x="26" y="39" font-size="17" font-weight="700" fill="#ABB8FF">02</text>
+   <text x="25" y="88" font-size="26" font-weight="700" fill="#F3F7FF">EXPLAIN</text>
+   <text x="25" y="119" font-size="16" fill="#A4B6D6">Methods · Math</text><text x="25" y="144" font-size="16" fill="#A4B6D6">Train · Inference</text>
+  </g>
+  <g transform="translate(674 145)">
+   <rect width="250" height="168" rx="18" fill="#152C41" stroke="#63BBD6" stroke-opacity=".67"/>
+   <circle cx="34" cy="33" r="17" fill="#34B4D3" fill-opacity=".2"/><text x="26" y="39" font-size="17" font-weight="700" fill="#90E2F0">03</text>
+   <text x="25" y="88" font-size="26" font-weight="700" fill="#F3F7FF">VERIFY</text>
+   <text x="25" y="119" font-size="16" fill="#A4C9D6">Tables · Ablations</text><text x="25" y="144" font-size="16" fill="#A4C9D6">Claims · Evidence</text>
+  </g>
+  <g transform="translate(976 145)">
+   <rect width="250" height="168" rx="18" fill="#14313D" stroke="#68D9C3" stroke-opacity=".67"/>
+   <circle cx="34" cy="33" r="17" fill="#44D9BB" fill-opacity=".18"/><text x="26" y="39" font-size="17" font-weight="700" fill="#95F8D8">04</text>
+   <text x="25" y="88" font-size="26" font-weight="700" fill="#F3F7FF">RESEARCH</text>
+   <text x="25" y="119" font-size="16" fill="#B3D8D5">Prior Art · Ideas</text><text x="25" y="144" font-size="16" fill="#B3D8D5">Testable Experiments</text>
+  </g>
+  <g transform="translate(1278 145)">
+   <rect width="250" height="168" rx="18" fill="#163638" stroke="#68EBC1" stroke-opacity=".80"/>
+   <circle cx="34" cy="33" r="17" fill="#44D9BB" fill-opacity=".22"/><text x="26" y="39" font-size="17" font-weight="700" fill="#A5FFE3">05</text>
+   <text x="25" y="88" font-size="26" font-weight="700" fill="#F3F7FF">EXPORT</text>
+   <text x="25" y="119" font-size="16" fill="#B8E5D6">Markdown + HTML</text><text x="25" y="144" font-size="16" fill="#B8E5D6">One Paper · Two Files</text>
+  </g>
+</g>
+<g fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M334 230H358m-9-8 9 8-9 8"/><path d="M636 230H660m-9-8 9 8-9 8"/><path d="M938 230H962m-9-8 9 8-9 8"/><path d="M1240 230H1264m-9-8 9 8-9 8"/>
+</g>
+<rect x="1" y="1" width="1598" height="358" rx="27" stroke="#7694CA" stroke-opacity=".28" fill="none" stroke-width="2"/>
+</svg>
